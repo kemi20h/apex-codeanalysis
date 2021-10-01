@@ -124,8 +124,8 @@
 	              <goal>wsimport</goal>
 	            </goals>
 		        <configuration>
-		        	<bindingDirectory>src/main/webapp/bindings</bindingDirectory>
-		        	<wsdlDirectory>src/main/webapp/resources</wsdlDirectory>
+		        	<bindingDirectory>${project.basedir}/src/main/webapp/bindings</bindingDirectory>
+		        	<wsdlDirectory>${project.basedir}/src/main/webapp/resources</wsdlDirectory>
 		        	<xadditionalHeaders>true</xadditionalHeaders>
 		        </configuration>
 	          </execution>
