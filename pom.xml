@@ -125,7 +125,7 @@
 	            </goals>
 		        <configuration>
 		        	<bindingDirectory>src/main/webapp/bindings</bindingDirectory>
-		        	<wsdlDirectory>src/main/webapp/resources</wsdlDirectory>
+		        	<wsdlDirectory>src/resources</wsdlDirectory>
 		        	<xadditionalHeaders>true</xadditionalHeaders>
 		        </configuration>
 	          </execution>
