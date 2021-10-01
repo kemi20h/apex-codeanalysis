@@ -97,7 +97,7 @@ public class Main {
             // Heroku does it's own SSL piggyback thing
             System.out.println("Looks like we are running on heroku.");
 
-            String webappDirLocation = "src/main/webapp/resources/";
+            String webappDirLocation = "src/main/webapp/";
 
             //The port that we should run on can be set into an environment variable
             //Look for that variable and default to 8080 if it isn't there.
