@@ -125,7 +125,7 @@
 	            </goals>
 		        <configuration>
 		        	<bindingDirectory>${project.basedir}/src/main/webapp/bindings</bindingDirectory>
-		        	<wsdlDirectory>${project.basedir}/src/main/webapp/resources</wsdlDirectory>
+		        	<wsdlDirectory>${project.basedir}/resources</wsdlDirectory>
 		        	<xadditionalHeaders>true</xadditionalHeaders>
 		        </configuration>
 	          </execution>
